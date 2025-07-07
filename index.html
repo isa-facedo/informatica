@@ -1,17 +1,68 @@
 <!DOCTYPE html>
 <html>
     <head>
-<title> Mi página</title>
+<title> Mi página web</title>
+<style>
+     header{background-color:beige;
+        color:darkslategray;}
+        nav{background-color:honeydew;
+        color:cornflowerblue;}
+        main{background-color: aliceblue;
+        color:cadetblue}
+        footer{background-color: beige;
+        color:darkslategrey}
+</style>
+<link rel="stylesheet" href="./index_estilos.css">
     </head>
 <body>
-<h1> Bienvenidos</h1>
-<p> Mi nombre es Isabella, y esta es mi página web.</p>
-<ul>
-    <li><a href="./enlaces.html"> Ejercicio 1 </a></li>
-    <li><a href="./tabla.html"target="_blank"> Ejercicio 2 </a></li>
-    <li><a href="./tabla2.html">Ejercicio 3</a></li>
-    <li><a href="./semantica.html">Ejercicio 4</a></li>
+<header>
+    <h1>Portafolio de Informática</h1>
+    <p>Primeros pasos en el diseño web</p>
+</header>
+<nav>
+    <ul>
+    <li> Repositorio GitHub</li>
+    <li> Carpeta en Drive</li>
+    <li> FreeCodeCamp</li>
+    <li> MDN web docs</li>
 </ul>
+</nav>
+<main> 
+    <aside>
+<h2>Ejercicios realizados:</h2>
+<ul>
+    <li><a href="./enlaces.html"> Recetas</a></li>
+    <li><a href="./tabla.html"target="_blank"> Tabla 1 </a></li>
+    <li><a href="./tabla2.html">Tabla 2</a></li>
+    <li><a href="./semantica.html">Mafalda</a></li>
+</ul>
+    </aside>
+    <section class="contenido">
+<h2>Sobre mí</h2>
+<p>Soy <strong>Isabella Facedo</strong>, una alumna de <strong>3er año del Colegio Calasanz</strong>. Esta es mi página web personal, en la que estoy aprendiendo a programar y a hacer páginas web a través de Visual Studio Code y CSS. Me gustan mucho estas clases y posiblemente me sirvan más adelante.</p>
+<h2>Lo que aprendí hasta ahora:</h2>
+<ul>
+    <li>Hacer una estructura básica de html</li>
+    <li>Insertar imagenes, enlaces y tablas</li>
+    <li>Usar etiquetas semánticas correctamente</li>
+    <li>Aplicar estilos usando CSS externo </li>
+</ul>
+<h2>Herramientas que estoy usando:</h2>
+<div class="iconos">
+    <img src="vsc.png" alt="Visual Studio Code">
+    <img src="html 5.png" alt="HTML 5">
+    <img src="css 3.png" alt="CSS 3">
+    <img src="Chrome.png" alt="Google Chrome">
+
+</div>
+    </section>
+</main>
+
 <img src="./image.jpg"> 
+<footer>
+    Isabella Facedo 
+    3°C 
+    2025
+</footer>
 </body>
 </html>

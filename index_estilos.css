@@ -1,0 +1,80 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: rgb(192, 188, 188);
+}
+header, footer {
+    background-color:gray;
+    color: rgb(216, 254, 255);
+    text-align: center;
+    padding: 0.5rem;
+}
+header nav a {
+    margin: 0 10px;
+}
+nav {
+    background-color: rgb(190, 255, 255);
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+main {
+    padding: 20px;
+    display: flex;
+    gap: 2rem;
+}
+strong {
+    color: darkslategrey;
+}
+blockquote {
+    font-style: italic;
+    color: rgb(8, 0, 255);
+}
+article {
+    background-color: aliceblue;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+aside {
+    width: 25%;
+    background-color: aliceblue;
+    padding: 15px;
+    border-left: 2px solid royalblue;
+}
+section.contenido {
+    width:25%;
+    padding: 15px;
+    border-right: 2px solid royalblue;
+}
+th {
+    background-color: aliceblue;
+}
+th, td {
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+img {
+    width:150px;
+    height: 150px;
+    margin-top: 1rem;
+    border: 4px solid aqua;
+    border-radius: 8px;
+}
+footer a {
+    color: royalblue;
+    text-decoration: none;
+}
+.iconos img {
+    height:50px;
+    margin:10px;
+}
