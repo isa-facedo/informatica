@@ -50,7 +50,15 @@ aside {
 section.contenido {
     width:25%;
     padding: 15px;
+   /* border-right: 2px solid royalblue;*/
+}
+section.tabla {
+    width:45%;
+    padding:15px;
     border-right: 2px solid royalblue;
+}
+section.color {
+    background-color: aliceblue;
 }
 th {
     background-color: aliceblue;
