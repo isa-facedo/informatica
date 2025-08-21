@@ -1,6 +1,7 @@
 /* selector de etiqueta*/
 h1 {
     color:red;
+    font-size:xx-large;
 }
 h2 {
     color:blue;
@@ -19,3 +20,20 @@ h2 {
     background-color: blanchedalmond;
     color: darkslategray;
 }
+header {
+    background-image: url("./calasanz.jfif");
+    padding:100%;
+    text-align: center;
+}
+footer a {
+    color: #fff8ec;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    margin: 0 0.5rem; 
+    font-size: 1.8rem; 
+    display: inline-block;
+}
+footer a:hover {
+        color: cornflowerblue;
+      }
