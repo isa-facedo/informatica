@@ -1,0 +1,3 @@
+ Usar tres <input type="number"> para las notas.
+ Calcular el promedio.
+ Mostrar un mensaje: “Tu promedio es X. ¡Aprobaste!” o “Tu promedio es X. Necesitás repasar.”
