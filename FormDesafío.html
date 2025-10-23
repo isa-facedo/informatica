@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Próximo Cumpleaños</title>
+</head>
+<body>
+    <form>
+        <h1>¿Cuándo es tu Próximo Cumpleaños?</h1>
+        <label for "nacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="nacimiento" required><br>
+        <button onclick="calcular()">Enviar</button>
+    </form>
+    <script>
+        function calcular(){
+            let nac= new Date (document. getElementById("nacimiento").value);
+            let hoy= new Date();
+            let cumple= nac.getFullYear()-hoy.getFullYear();
+            alert ("Tu próximo cumpleaños es el"+cumple);
+        }
+    </script>
+</body>
+</html>
